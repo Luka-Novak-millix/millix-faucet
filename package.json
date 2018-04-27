@@ -1,27 +1,27 @@
 {
-  "name": "byteball-faucet",
-  "description": "Byteball faucet",
-  "author": "Byteball",
+  "name": "millix-faucet",
+  "description": "Millix faucet",
+  "author": "Millix",
   "version": "0.1.1",
   "main": "start.js",
   "keywords": [
     "faucet",
-    "byteball"
+    "millix"
   ],
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/byteball/byteball-faucet.git",
+    "url": "git://github.com/millix/millix-faucet.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/byteball/byteball-faucet/issues"
+    "url": "https://github.com/millix/millix-faucet/issues"
   },
   "browser": {
     "request": "browser-request",
     "secp256k1": "secp256k1/js"
   },
   "dependencies": {
-    "byteballcore": "^0.2.1",
-    "headless-byteball": "git+https://github.com/byteball/headless-byteball.git"
+    "millixcore": "^0.2.1",
+    "headless-millix": "git+https://github.com/millix/headless-millix.git"
   }
 }
