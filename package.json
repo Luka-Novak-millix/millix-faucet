@@ -21,7 +21,7 @@
     "secp256k1": "secp256k1/js"
   },
   "dependencies": {
-    "millixcore": "^0.2.1",
+    "millixcore": "git+https://github.com/millix/millixcore.git",
     "headless-millix": "git+https://github.com/millix/headless-millix.git"
   }
 }
